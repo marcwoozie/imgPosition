@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>img Position</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="img.position.min.js" ></script>
+</head>
+
+<style>
+  
+  .s{
+    border: 1px solid #ccc;
+  }
+  .imgPosition02 li{
+    display: inline-block;
+    border: 1px solid #ccc;
+  }
+
+</style>
+
+<body>
+
+  <div class="s imgPosition01">
+    <img src="./img/5070999.png" alt="">
+  </div>
+
+  <ul class="imgPosition02">
+    <li><img src="img/458687_371392292939261_1571830299_o.jpg" alt=""></li>
+    <li><img src="img/5070999.png" alt=""></li>
+    <li><img src="img/180278_326164157462075_1180533480_n.jpg" alt=""></li>
+  </ul>
+
+<script>
+  $(function(){
+
+    $(".imgPosition01").imgPosition({
+      width: 300,
+      height: 400
+    });
+
+    $(".imgPosition02 li").imgPosition({
+      width: 400,
+      height: 400
+    });
+
+  });
+</script>
+</body>
+</html>
