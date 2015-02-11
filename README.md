@@ -1,5 +1,7 @@
 # jquery imgPosition js
 
+This plug-in while keeping the ratio of the image, is a plug-in to fit the specified HTML tags
+
 ## Installation
 
 ```html
