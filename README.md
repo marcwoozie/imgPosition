@@ -16,3 +16,5 @@ $('your element').imgPosition({
   height: your element height
 });
 ```
+
+
