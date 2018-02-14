@@ -1,4 +1,5 @@
 ;(function($){
+  
   'use strict';
 
   $.fn.imgPosition = function(options){
